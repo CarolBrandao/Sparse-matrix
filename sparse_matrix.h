@@ -15,7 +15,7 @@ typedef struct{
 
 int Insert(TMatrix *mat, int line, int column, float value);
 void PrintMatrix(TMatrix *A);
-void DeleteMatriz(TMatrix *A);
+void DeleteMatrix(TMatrix *A);
 
 TMatrix *InitializeMatrix(int lines, int columns);
 TMatrix *ReadMatrix(TMatrix *A);
